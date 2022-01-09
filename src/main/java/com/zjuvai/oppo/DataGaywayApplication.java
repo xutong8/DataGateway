@@ -9,5 +9,4 @@ public class DataGaywayApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DataGaywayApplication.class, args);
 	}
-
 }

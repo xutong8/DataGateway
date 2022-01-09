@@ -12,7 +12,7 @@ hive:
   minEvictableIdleTimeMillis: 30000
   validationQuery: select 1
   testWhileIdle: true
-  testOnBorrow: false
+  testOnBorrow: true
   testOnReturn: false
   poolPreparedStatements: true
   maxPoolPreparedStatementPerConnectionSize: 20
