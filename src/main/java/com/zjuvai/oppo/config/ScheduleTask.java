@@ -21,7 +21,7 @@ public class ScheduleTask {
 
     private static final Logger logger = LoggerFactory.getLogger(ScheduleTask.class);
 
-    @Scheduled(fixedRate = 1000)
+    @Scheduled(fixedRate = 100)
     public void mockPersonData() {
         Date date = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
