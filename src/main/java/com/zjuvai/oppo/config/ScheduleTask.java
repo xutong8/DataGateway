@@ -16,7 +16,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 public class ScheduleTask {
     private static final Logger logger = LoggerFactory.getLogger(ScheduleTask.class);
 
-    private int loop_times = 100;
+    private int loop_times = 200;
 
     @Autowired
     @Qualifier("jdbcTemplate")
